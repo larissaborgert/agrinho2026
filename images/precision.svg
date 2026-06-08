@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Ilustração de agricultura de precisão">
+  <rect width="300" height="200" rx="24" fill="#edf9ef"/>
+  <rect x="32" y="40" width="236" height="120" rx="20" fill="#ffffff"/>
+  <path d="M78 116 L122 72 L166 116 L210 78 L254 116" fill="none" stroke="#2d7a3e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="92" cy="126" r="10" fill="#f0ad4e"/>
+  <circle cx="168" cy="96" r="10" fill="#4a9d5f"/>
+  <circle cx="244" cy="126" r="10" fill="#f0ad4e"/>
+  <path d="M58 148 C100 126 140 126 182 148" stroke="#4a9d5f" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Ilustração de solo saudável">
+  <rect width="300" height="200" rx="24" fill="#f4fff6"/>
+  <path d="M45 145 C78 82 126 58 170 88 C212 116 242 152 255 168" fill="#c7e8ca"/>
+  <path d="M65 146 C95 110 130 95 164 112 C198 129 225 152 246 168" fill="#8bcf96" opacity="0.8"/>
+  <path d="M82 112 C102 90 126 78 154 82" stroke="#2d7a3e" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="222" cy="58" r="20" fill="#f0ad4e" opacity="0.8"/>
+  <path d="M210 64 C220 48 242 46 254 58" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

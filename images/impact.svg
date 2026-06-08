@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Ilustração de impacto sustentável">
+  <rect width="300" height="200" rx="24" fill="#eef7ff"/>
+  <rect x="40" y="46" width="220" height="108" rx="18" fill="#ffffff"/>
+  <path d="M74 132 L118 82 L160 110 L202 62 L246 132" fill="none" stroke="#2d7a3e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="118" cy="82" r="10" fill="#4a9d5f"/>
+  <circle cx="202" cy="62" r="10" fill="#f0ad4e"/>
+  <path d="M64 150 C102 134 144 130 184 146" stroke="#4a9d5f" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M192 150 C220 122 250 120 266 132" stroke="#2d7a3e" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+</svg>

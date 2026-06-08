@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Ilustração de agricultura sustentável">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c8f2cf"/>
+      <stop offset="100%" stop-color="#88d08b"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#2d7a3e"/>
+      <stop offset="100%" stop-color="#4a9d5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="32" fill="url(#g1)"/>
+  <circle cx="510" cy="92" r="42" fill="#fff7c2" opacity="0.7"/>
+  <path d="M0 300 C120 220 260 210 380 260 S560 340 640 280 V420 H0 Z" fill="#8bcf96"/>
+  <rect x="110" y="140" width="140" height="120" rx="18" fill="#fff" opacity="0.95"/>
+  <rect x="142" y="172" width="76" height="54" rx="10" fill="#2d7a3e" opacity="0.25"/>
+  <path d="M190 118 C210 82 250 72 278 102" stroke="#2d7a3e" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M200 118 C176 84 150 82 120 110" stroke="#4a9d5f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M290 210 C340 170 390 170 430 210" stroke="#2d7a3e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M370 120 C424 86 486 98 526 150" stroke="#4a9d5f" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <rect x="350" y="220" width="160" height="90" rx="18" fill="#fff" opacity="0.95"/>
+  <path d="M410 245 L450 245 L470 290 L390 290 Z" fill="url(#g2)"/>
+  <circle cx="430" cy="245" r="12" fill="#f0ad4e"/>
+  <path d="M130 310 C170 270 225 262 276 286" stroke="#2d7a3e" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M404 304 C460 262 518 260 562 294" stroke="#4a9d5f" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>
