@@ -1,5 +1,10 @@
 /* ========================================
-   RESET E VARIÁVEIS
+   IMPORTAÇÃO DE FONTES GOOGLE
+   ======================================== */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ========================================
+   RESET E VARIÁVEIS - DESIGN SYSTEM
    ======================================== */
 * {
     margin: 0;
@@ -8,22 +13,79 @@
 }
 
 :root {
-    --primary-color: #2d7a3e;
-    --secondary-color: #4a9d5f;
-    --accent-color: #f0ad4e;
-    --text-dark: #2c3e50;
-    --text-light: #7f8c8d;
-    --bg-light: #f8f9fa;
-    --bg-white: #ffffff;
+    /* ========== PALETA DE CORES ========== */
+    /* Primária: Verde escuro - Identidade e títulos */
+    --color-primary: #2D7A3E;
+    
+    /* Secundária: Verde claro - Elementos interativos e destaque */
+    --color-secondary: #52B788;
+    
+    /* Destaque: Laranja - Call-to-action e botões */
+    --color-accent: #E67E22;
+    
+    /* Neutro: Fundo suave */
+    --color-bg-light: #F5F7F0;
+    
+    /* Textos */
+    --color-text-dark: #1A2C2A;
+    --color-text-light: #6B7280;
+    --color-text-muted: #9CA3AF;
+    
+    /* Backgrounds */
+    --color-bg-white: #FFFFFF;
+    
+    /* Legacy support (para compatibilidade) */
+    --primary-color: var(--color-primary);
+    --secondary-color: var(--color-secondary);
+    --accent-color: var(--color-accent);
+    --text-dark: var(--color-text-dark);
+    --text-light: var(--color-text-light);
+    --bg-light: var(--color-bg-light);
+    --bg-white: var(--color-bg-white);
+    
+    /* ========== TIPOGRAFIA ========== */
+    /* Títulos: Plus Jakarta Sans - Bold e Exuberante */
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    
+    /* Corpo: Poppins - Moderna e Acessível */
+    --font-body: 'Poppins', sans-serif;
+    
+    /* Fallback */
+    --font-fallback: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    
+    /* ========== ESPAÇAMENTO ========== */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    
+    /* ========== BORDER RADIUS ========== */
     --border-radius: 8px;
+    --border-radius-lg: 16px;
+    --border-radius-full: 9999px;
+    
+    /* ========== TRANSIÇÕES ========== */
     --transition: all 0.3s ease;
+    --transition-fast: all 0.2s ease;
+    --transition-slow: all 0.5s ease;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-body), var(--font-fallback);
     line-height: 1.6;
-    color: var(--text-dark);
-    background-color: var(--bg-white);
+    color: var(--color-text-dark);
+    background-color: var(--color-bg-white);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), var(--font-fallback);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
 }
 
 .container {
